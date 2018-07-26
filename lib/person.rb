@@ -1,5 +1,5 @@
 # person.rb
-class Dog 
+class Person 
    def initialize(talk, walk)
     @talk = talk
      @sit = sit
@@ -14,9 +14,10 @@ class Dog
  end
  end
   
-  chloe = Dog.new("Chloe")
+  chloe = Person.new("Chloe")
   
-puts chloe.return_sit
+puts chloe.return_talk
+puts chloe.return_walk
   
   
  
