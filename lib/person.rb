@@ -1,22 +1,22 @@
 # person.rb
 class Dog 
-   def initialize(sit, bark)
+   def initialize(talk, walk)
     @talk = talk
      @sit = sit
    end
-  def return_bark
+  def return_talk
     @talk
-    puts "Woof!"
+    puts "Hello world!"
    end
- def return_sit
+ def return_walk
    @walk
    puts "The person is walking."
  end
  end
   
-  george = Dog.new("george")
+  chloe = Dog.new("Chloe")
   
-puts george.return_sit
+puts chloe.return_sit
   
   
  
